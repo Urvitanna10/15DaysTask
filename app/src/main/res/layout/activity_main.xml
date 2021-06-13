@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
     <Button
         android:id="@+id/task1"
@@ -22,4 +30,77 @@
         android:text="Task2"
         android:layout_marginTop="110px"
         android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/task3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task3"
+        android:layout_marginTop="110px"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/task4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task4"
+        android:layout_marginTop="110px"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/task5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task5"
+        android:layout_marginTop="110px"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/task6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task6"
+        android:layout_marginTop="110px"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/task7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task7"
+        android:layout_marginTop="110px"
+        android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/task8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task8"
+                android:layout_marginTop="110px"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/task9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task9"
+                android:layout_marginTop="110px"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/task10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task10"
+                android:layout_marginTop="110px"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/task11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task11"
+                android:layout_marginTop="110px"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/task12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task12"
+                android:layout_marginTop="110px"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.a15daystasks">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <supports-screens android:anyDensity="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,8 +16,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.15DaysTasks">
-        <activity android:name=".task1.calc"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".task12.VideoActivity"></activity>
+        <activity android:name=".task11.MusicActivity" />
+        <activity android:name=".task10.SmsActivity" />
+        <activity android:name=".task9.EmailActivity" />
+        <activity
+            android:name=".task8.Callactivity"
+            android:exported="true" />
+        <activity android:name=".task7.ListViewDetails" />
+        <activity android:name=".task7.Custom_listview" />
+        <activity android:name=".task6.WebActivity" />
+        <activity android:name=".task5.Gridactivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".task2.Registration" />
+        <activity android:name=".task3.ScrollActivity" />
+        <activity android:name=".task4.ListActivity" />
+        <activity android:name=".task1.calc" />
+        <activity android:name=".Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
